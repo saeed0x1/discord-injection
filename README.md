@@ -2,10 +2,6 @@
   Discord Injection 💉
 </h1>
 
-<p align="center">
-   Discord HTTP requests interception POC, including backup codes request and many others !
-</p>
-
 ## Features
 - Intercept login, register and 2FA login requests
 - Intercept backup codes requests
